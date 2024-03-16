@@ -57,8 +57,10 @@ body {
 }
 .box{
     /* gap:rem; */
-    height:172px;
-    width:132px;
+    /* height:72px; */
+    width:62px;
+    height:11px;
+    background-color: red;
 }
 
 
