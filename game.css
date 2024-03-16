@@ -50,9 +50,29 @@ body {
     color:#adb7c1;
     background-color: #fff;
     text-decoration: none;
+    background-color: beige;
 }
 .content p{
     font-size: 4rem;
+}
+
+
+/* for the game  */
+.eefRoom{
+    background:green;
+    height:433px;
+    width:645px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.bigbox{
+    height:53px;
+    display: flex;
+    width:535px;
+    background-color: rgb(255, 189, 127);
+    flex-wrap: wrap;
 }
 
 
