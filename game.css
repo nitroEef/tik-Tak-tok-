@@ -13,13 +13,7 @@ body {
     background-color: aliceblue;
 
 }
-.eefGame{
-   
-    width:530px;
-    height:400px;
-    border-radius: 3%;
-    background-color: rgb(2, 2, 2);
-}
+
 
 .bigBox{
     margin: 0 auto;
@@ -52,17 +46,21 @@ body {
 
 
 .bigBox{
-    background-color: aquamarine;
+    background-color: rgb(214, 205, 23);
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    /* height: 365px;
+    width:356px; */
+    margin: 10px auto;
+
     
 }
-.box{
-    /* gap:rem; */
-    /* height:72px; */
-    width:62px;
-    height:11px;
-    background-color: red;
-}
 
+.box{
+    width:115px;
+    height:115px;
+}
 
 
 
