@@ -6,22 +6,33 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    background-color: purple;
 
 }
+
+
+
 p{
-    width:755px;
-    font-size: 1.3rem;
+    width:675px;
+    font-size: 1rem;
     line-height: 1.5rem;
+    color:white;
+    
 }
 
+h1{
+    color:white;
+    text-align: center;
+}
 .link{
     font-size: 1.2rem;
     padding: 0.5rem 0;
     width:12rem;
     text-align: center;
     border:0.1rem solid #343434;
-    color:#adb7c1;
-    background-color: #fff;
+    color:purple;
+    background:white;
+
     text-decoration: none;
 }
 .fa-solid{
