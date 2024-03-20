@@ -6,16 +6,20 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background-color: purple;
+    background-image: url(/images/w.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+
 
 }
 
 
 
 p{
-    width:675px;
-    font-size: 1rem;
-    line-height: 1.5rem;
+    width:1155px;
+    font-size: 1.5rem;
+    line-height: 2rem;
     color:white;
     
 }

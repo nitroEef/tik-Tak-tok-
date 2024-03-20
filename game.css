@@ -11,6 +11,9 @@ body {
     justify-content: center;
     align-items: center;
     padding-top: 22vh;
+    background-image: url(/images/w.webp);
+    background-size: cover;
+    background-repeat: no-repeat;
 
 }
 
@@ -57,37 +60,27 @@ body {
 cursor:pointer;
 height:85px;
 width:85px;
-border:2px solid purple;
-}
-/* 
-.box:nth-child(6){
-    border-right: none;
+border:2px solid white;
 }
 
-.box:nth-child(3){
-    border-right: none;
+#reset{
+    color:white;
+    background-color:transparent;
+    padding:7px 32px;
+    font-size: 1.2rem;
+    font-weight: bold;
+    box-shadow: 2px 1px 1px 1px white;
+    border-radius: 11%;
+    cursor: pointer;
+
 }
 
-.box:nth-child(2){
-    border-top: none;
-    border-bottom: none;
+#result{
+    color:white;
 }
-
-.box:nth-child(1){
-    border-left: none;
-}
-
-
-.box:nth-child(4){
-    border-left: none;
-}
-
-.box:nth-child(8){
-    border-bottom: none;
-} */
 
 .box:hover{
-    background-color: purple;
+    background-color: black;
 }
 
 

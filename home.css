@@ -10,8 +10,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: purple;
-    /* background-image: url(/images/pexels-daniel-absi-952670.jpg); */
+    background-image: url(/images/w.webp);
 
 }
 .bigBox{
@@ -25,7 +24,7 @@ body {
     height:400px;
     border-radius: 3%;
     /* background-image: url(/images/pexels-daniel-absi-952670.jpg); */
-    background:radial-gradient(rgb(139, 47, 139),  rgb(182, 3, 182),rgb(237, 143, 237))
+    background-image: url(/images/w.webp);
 
     
 }
@@ -51,7 +50,7 @@ body {
     width:12rem;
     text-align: center;
     border:1px solid white;
-    color:white;
+    color:gold;
     font-weight: 900;
     text-decoration: none;
     border-radius: 12px;
@@ -66,10 +65,9 @@ body {
     width:11rem;
 }
 
-/* .linkred{
+.yuyu{
     background-color: red;
-    padding:11rem;
-} */
+}
 
 .fa-brands{
     color:rgb(165, 68, 68);
