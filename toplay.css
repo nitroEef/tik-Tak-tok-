@@ -30,24 +30,90 @@ h1{
 }
 .link{
     font-size: 1.2rem;
-    padding: 0.5rem 0;
-    width:12rem;
+    width:9rem;
     text-align: center;
     border:0.1rem solid #343434;
     color:purple;
     background:white;
-
+    display: flex;
     text-decoration: none;
+
 }
-.fa-solid{
-    color:rgb(183, 172, 172);
-    margin-left:12px;
+
+
+
+
+
+@media screen and (max-width: 1160px) {
+    p{
+        width:1012px;
+    }
 }
+
+
+@media screen and (max-width: 1030px) {
+    p{
+        width:912px;
+    }
+}
+
+
+
+@media screen and (max-width: 934px) {
+    p{
+        width:772px;
+    }
+}
+
+
+
+@media screen and (max-width: 794px) {
+    p{
+        width:672px;
+    }
+}
+
+@media screen and (max-width: 688px) {
+    p{
+        width:572px;
+    }
+}
+
+@media screen and (max-width: 595px) {
+    p{
+        width:472px;
+    }
+}
+
+@media screen and (max-width: 502px) {
+    p{
+        width:372px;
+    }
+}
+
+@media screen and (max-width: 389px) {
+    p{
+        width:372px;
+        font-size: 17px;
+    }
+}
+
+@media screen and (max-width: 374px) {
+    p{
+        width:300px;
+    }
+}
+
 
 @media screen and (max-width: 326px) {
     p{
-        width:312px;
+        width:302px;
         font-size: 12px;
-        background-color: rgb(114, 202, 73);
+    }
+}
+@media screen and (max-width: 315px) {
+    p{
+        width:242px;
+        font-size: 11px;
     }
 }

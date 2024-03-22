@@ -1,13 +1,12 @@
- const bigBox = document.getElementById('bigBox')
- const box = document.querySelectorAll('box')
+//  const bigBox = document.getElementById('bigBox')
+ const boxes = document.querySelector('#box')
  const reset = document.getElementById('reset')
  const result = document.getElementById('result')
+ console.log(boxes)
 
- const player_X_won = 'player_X_won'
- const player_O_won = 'player_O_won'
- const draw = 'draw'
-
-
+ const zeroValue = () => {
+  
+ }
 const onlyPossibleWin = [
     [0,1,2],
     [3,4,5],
@@ -18,5 +17,3 @@ const onlyPossibleWin = [
     [0,4,8],
     [2,4,6]
   ];
-
-  
