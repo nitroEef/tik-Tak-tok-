@@ -47,7 +47,7 @@ h1{
     background-color: transparent;
     border:1px solid white;
     color:white;
-    padding:9px;
+    transition: 0.6 ease-in-out all ;
 }
 
 
