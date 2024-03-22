@@ -21,11 +21,18 @@ function handleClick(e) {
             winningAlert.innerText = `${currentPlayer} HAS WON!`;
             playText.appendChild(winningAlert);
 
-            setTimeout(() => {
-                restart();
-            }, 4000);
-            return;
-        }
+            if (playerWon(currentPlayer)) {
+                const winningAlert = document.createElement("p");
+                winningAlert.setAttribute("id", "winning-text");
+                winningAlert.innerText = `${currentPlayer} HAS WON!`;
+                playText.appendChild(winningAlert);
+
+         
+setTimeout(() => {
+restart();
+ }, 4000);
+ return;
+ }
         currentPlayer = currentPlayer === OPlayer ? XPlayer : OPlayer;
     }
 }
