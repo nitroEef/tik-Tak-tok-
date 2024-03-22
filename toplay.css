@@ -27,16 +27,28 @@ h1{
 }
 .link{
     font-size: 1.2rem;
+    padding: 12px;
     width:9rem;
     text-align: center;
     border:0.1rem solid #343434;
     color:purple;
     background:white;
-    display: flex;
     text-decoration: none;
-
+    border-top-left-radius: 25%;
+    border-bottom-right-radius: 25%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 2rem auto;
 }
 
+.link:hover{
+    background-color: transparent;
+    border:1px solid white;
+    color:white;
+    padding:9px;
+}
 
 
 
