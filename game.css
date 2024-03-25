@@ -36,12 +36,12 @@ body {
 .gamebox {
    width:80px;
    height: 80px;
-   margin: 3px 3px;
+   margin: 4px 4px;
    text-align: center;
    color:blue;
    font-size: 72px;
-   border-bottom-right-radius: 17px;
-   border-top-left-radius: 17px;
+   border-radius: 5%;
+   border-bottom-right-radius: 7px;
    background-color: white;
    box-shadow: 1px 1px 3px 6px rgb(56, 82, 211);
 }
