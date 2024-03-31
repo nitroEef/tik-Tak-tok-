@@ -12,7 +12,7 @@ function handleClick(e) {
     if (!spaces[id]) {
         spaces[id] = currentPlayer;
 
-        console.log('[' + spaces.slice(0, 3) + ']\n[' + spaces.slice(3, 6) + ']\n[' + spaces.slice(6) + ']');
+        // console.log('[' + spaces.slice(0, 3) + ']\n[' + spaces.slice(3, 6) + ']\n[' + spaces.slice(6) + ']');
         e.target.innerText = currentPlayer;
 
         if (playerWon(currentPlayer)) {
@@ -21,13 +21,6 @@ function handleClick(e) {
             winningAlert.innerText = `${currentPlayer} HAS WON!`;
             playText.appendChild(winningAlert);
 
-
-          
-          
-
-        
-
-         
             setTimeout(() => {
                 restart();
             }, 4000);
