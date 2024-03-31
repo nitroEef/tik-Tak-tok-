@@ -1,5 +1,3 @@
-
-
 const gameboxes = document.querySelectorAll(".gamebox");
 const playText = document.getElementById("game-text");
 const restartBtn = document.getElementById("restart");
@@ -14,15 +12,16 @@ function handleClick(e) {
     if (!spaces[id]) {
         spaces[id] = currentPlayer;
 
-        // console.log('[' + spaces.slice(0, 3) + ']\n[' + spaces.slice(3, 6) + ']\n[' + spaces.slice(6) + ']');
         e.target.innerText = currentPlayer;
 
         if (playerWon(currentPlayer)) {
-            const winningAlert = document.createElement("p");
-            winningAlert.setAttribute("id", "winning-text");
-            winningAlert.innerText = `${currentPlayer} HAS WON!`;
-            playText.appendChild(winningAlert);
-
+            displayResult(`${currentPlayer} HAS WON!`);
+            setTimeout(() => {
+                restart();
+            }, 4000);
+            return;
+        } else if (isDraw()) {
+            displayResult("It's a Draw!");
             setTimeout(() => {
                 restart();
             }, 4000);
@@ -77,4 +76,3 @@ const restart = () => {
 restartBtn.addEventListener("click", restart);
 
 restart();
-

@@ -42,6 +42,9 @@ body {
     font-size: 4rem;
    color:white;
    font-weight: 400;
+   
+    text-shadow: 2px 4px 7px rgba(244, 242, 242, 0.974);
+   ;
     
 }
 .link{
