@@ -1,5 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Delius+Unicase:wght@400;700&family=Edu+NSW+ACT+Foundation:wght@400..700&display=swap');
+
+
 html{
     box-sizing: border-box;
+    font-family: "Delius Unicase", cursive;
+    font-weight: 400;
 }
 
 
@@ -39,17 +44,16 @@ body {
 
 }
 .content p{
-    font-size: 4rem;
+    font-size: 3rem;
    color:white;
-   font-weight: 400;
-   
-    text-shadow: 2px 4px 7px rgba(244, 242, 242, 0.974);
+  font-style: normal;
+text-shadow: 2px 4px 7px rgba(244, 242, 242, 0.974);
    ;
     
 }
 .link{
-    font-size: 1.3rem;
-    padding: 1rem 0;
+    font-size: 1rem;
+    padding: 0.7rem 0;
     width:12rem;
     text-align: center;
     border:1px solid white;
@@ -143,8 +147,8 @@ body {
     }
 
     .link{
-        font-size: 1rem;
-        width:9rem;
+        font-size: 14px;
+        width:8rem;
 }
 
 }
@@ -161,8 +165,8 @@ body {
     }
 
     .link{
-        font-size: 1.2rem;
-        width:9rem;
+        font-size: 12px;
+        width:7rem;
 }
 
 }

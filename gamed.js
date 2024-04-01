@@ -13,23 +13,26 @@ function handleClick(e) {
         spaces[id] = currentPlayer;
 
         e.target.innerText = currentPlayer;
+        
 
         if (playerWon(currentPlayer)) {
-            displayResult(`${currentPlayer} HAS WON!`);
+            displayResult(`${currentPlayer} HAS WON!!!!!🎈🎈🎈`);
             setTimeout(() => {
                 restart();
             }, 4000);
             return;
         } else if (isDraw()) {
-            displayResult("It's a Draw!");
+            displayResult("It's a Draw!😏😏");
             setTimeout(() => {
                 restart();
             }, 4000);
+
             return;
         }
 
         currentPlayer = currentPlayer === OPlayer ? XPlayer : OPlayer;
     }
+
 }
 
 function displayResult(message) {
@@ -37,6 +40,7 @@ function displayResult(message) {
     resultAlert.setAttribute("id", "result-text");
     resultAlert.innerText = message;
     playText.appendChild(resultAlert);
+    
 }
 
 function isDraw() {
@@ -69,10 +73,26 @@ const restart = () => {
     gameboxes.forEach((gamebox) => {
         gamebox.innerText = "";
     });
-    playText.innerHTML = `TIC TAC TOE`;
+    // playText.innerHTML = `TIC TAC TOE`;
     currentPlayer = OPlayer;
 };
 
 restartBtn.addEventListener("click", restart);
+
+const restarts = () => {
+    spaces.fill(null);
+    gameboxes.forEach((gamebox) => {
+        gamebox.innerText = "";
+    });
+    playText.innerHTML = `TIC TAC TOE`; // Reset playText content
+    currentPlayer = OPlayer;
+
+    // Remove result message if it exists
+    const resultAlert = document.getElementById("result-text");
+    if (resultAlert) {
+        resultAlert.remove();
+    }
+};
+
 
 restart();

@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Delius+Unicase:wght@400;700&family=Edu+NSW+ACT+Foundation:wght@400..700&display=swap');
+
+
 * {
     box-sizing: border-box;
     
@@ -13,6 +16,8 @@ body {
     justify-content: center;
     align-items: center;
     background-image: url(/images/w.webp);
+    font-family: "Delius Unicase", cursive;
+    font-weight: 400;
 
 }
 
@@ -24,6 +29,12 @@ body {
     align-items: center;
   
 
+}
+
+h1{
+    font-family: "Delius Unicase", cursive;
+    font-weight: 400;
+    color:white;
 }
 
 .game {
@@ -57,6 +68,9 @@ body {
     background:transparent;
     cursor: pointer;
     text-decoration: none;
+    font-family: "Delius Unicase", cursive;
+    font-weight: 400;
+    
 
 }
 .btn {
@@ -69,6 +83,9 @@ body {
     color: white;
     background:transparent;
     cursor: pointer;
+    font-family: "Delius Unicase", cursive;
+    font-weight: 400;
+
 }
 
 .btn:hover {
@@ -86,7 +103,10 @@ body {
 
 
 p{
-    color:yellow;
+    color:white;
+    margin-top:3rem;
+
+    
 }
 
 #game-text {
